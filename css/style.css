@@ -1,0 +1,81 @@
+/* GLOBAL STYLES */
+* { box-sizing: border-box; }
+body { margin: 0; }
+img { max-width: 100%; height: auto;}
+
+/* GLOBAL COLORS */
+body { 
+    background-color: rgb(98, 0, 0);
+    /* background-image: linear-gradient(to right, hsl(234, 100%, 8%), #004e92); */
+    background-image: url('../img/marcel-friedrich-XC_28Kk25F0-unsplash.jpg');
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.8);
+}
+a { color: rgba(0,51,153,1); }
+
+/* TYPOGRAPHY */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.3
+}
+a { text-decoration: none;}
+p {max-width: 30em; }
+h1, h2, h3 { 
+    font-weight: normal; 
+    margin: .5em 0;
+  }
+
+/* LAYOUT */
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto, 1fr, auto;
+}
+
+/* SITE-MAIN */
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* SITE-MAIN */
+.site-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* SITE-MAIN */
+.site-main {
+    display: grid;
+    place-items: center;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 1em;
+}
+.hero h1,
+.hero h2 {
+    font-size: 4em;
+    line-height: 1;
+    margin: 0;
+}
+.hero p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .running-head {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255,255,255,.5);
+    margin: .5em 0;
+}
+
